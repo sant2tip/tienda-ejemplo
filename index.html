@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta https://sant2tip.github.io/la-pagina-web1/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Mi Tienda de Ropa</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Camisa+Casual" alt="Camisa Casual">
+            <h2>Camisa Casual</h2>
+            <p>Descripción breve de la camisa.</p>
+            <p>Precio: $25</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Pantalones" alt="Pantalones">
+            <h2>Pantalones</h2>
+            <p>Descripción breve de los pantalones.</p>
+            <p>Precio: $35</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200?text=Chaqueta+de+Invierno" alt="Chaqueta de Invierno">
+            <h2>Chaqueta de Invierno</h2>
+            <p>Descripción breve de la chaqueta.</p>
+            <p>Precio: $50</p>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contacto</h3>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+    <!-- Integración del chatbot -->
+    <iframe
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/YOUR-AGENT-ID">
+    </iframe>
+</body>
+</html>
